@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <h1 class="brand-text">Instagram</h1>
+            <div class="nav-items">
+                <i class="fas fa-home"></i>
+                <i class="fab fa-facebook-messenger"></i>
+                <i class="far fa-plus-square"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+                <button class="theme-switch-btn">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+                <img src="th.jpg" class="nav-profile" alt="profile">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Stories -->
+        <div class="stories">
+            <div class="story">
+                <div class="story-border instagram-logo">
+                    <img src="Instagram_logo_2022.svg.webp" alt="Instagram">
+                </div>
+                <p>Instagram</p>
+            </div>
+            <div class="story">
+                <div class="story-border">
+                    <img src="th.jpg" alt="Your Story">
+                </div>
+                <p>Your Story</p>
+            </div>
+            <div class="story">
+                <div class="story-border">
+                    <img src="download.jpg" alt="user_1">
+                </div>
+                <p>user_1</p>
+            </div>
+            <div class="story">
+                <div class="story-border">
+                    <img src="download (1).jpg" alt="user_2">
+                </div>
+                <p>user_2</p>
+            </div>
+            <div class="story">
+                <div class="story-border">
+                    <img src="download (2).jpg" alt="user_3">
+                </div>
+                <p>user_3</p>
+            </div>
+            <div class="story">
+                <div class="story-border">
+                    <img src="download (3).jpg" alt="user_4">
+                </div>
+                <p>user_4</p>
+            </div>
+        </div>
+
+        <!-- Posts -->
+        <div class="posts">
+            <!-- Post 1 -->
+            <div class="post">
+                <div class="post-header">
+                    <div class="post-user">
+                        <img src="download.jpg" alt="user">
+                        <p class="username">user_1</p>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <img src="OIP.jpg" alt="post" class="post-img">
+                <div class="post-actions">
+                    <div class="actions-left">
+                        <i class="far fa-heart"></i>
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <i class="far fa-bookmark"></i>
+                </div>
+                <div class="post-info">
+                    <p class="likes">1,234 likes</p>
+                    <p class="description"><span>user_1</span> Beautiful sunset! 🌅</p>
+                    <p class="post-time">2 HOURS AGO</p>
+                </div>
+            </div>
+
+            <!-- Post 2 -->
+            <div class="post">
+                <div class="post-header">
+                    <div class="post-user">
+                        <img src="download (1).jpg" alt="user">
+                        <p class="username">user_2</p>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <img src="download (4).jpg" alt="post" class="post-img">
+                <div class="post-actions">
+                    <div class="actions-left">
+                        <i class="far fa-heart"></i>
+                        <i class="far fa-comment"></i>
+                        <i class="far fa-paper-plane"></i>
+                    </div>
+                    <i class="far fa-bookmark"></i>
+                </div>
+                <div class="post-info">
+                    <p class="likes">856 likes</p>
+                    <p class="description"><span>user_2</span> Weekend vibes! 🎉</p>
+                    <p class="post-time">5 HOURS AGO</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Right Sidebar -->
+    <aside class="sidebar">
+        <div class="user-profile">
+            <img src="th.jpg" alt="profile">
+            <div class="user-info">
+                <h4>your_username</h4>
+                <p>Your Name</p>
+            </div>
+            <button class="switch-button">Switch</button>
+        </div>
+        
+        <div class="suggestions">
+            <div class="suggestions-header">
+                <h4>Suggestions For You</h4>
+                <a href="#">See All</a>
+            </div>
+            
+            <div class="suggestion-item">
+                <img src="download (2).jpg" alt="user">
+                <div class="suggestion-info">
+                    <h5>user_3</h5>
+                    <p>Followed by user_1</p>
+                </div>
+                <button>Follow</button>
+            </div>
+            
+            <div class="suggestion-item">
+                <img src="download (3).jpg" alt="user">
+                <div class="suggestion-info">
+                    <h5>user_4</h5>
+                    <p>Followed by user_2</p>
+                </div>
+                <button>Follow</button>
+            </div>
+            
+            <div class="suggestion-item">
+                <img src="download.jpg" alt="user">
+                <div class="suggestion-info">
+                    <h5>user_5</h5>
+                    <p>Followed by user_1 + 3 more</p>
+                </div>
+                <button>Follow</button>
+            </div>
+            
+            <div class="suggestion-item">
+                <img src="download (1).jpg" alt="user">
+                <div class="suggestion-info">
+                    <h5>user_6</h5>
+                    <p>New to Instagram</p>
+                </div>
+                <button>Follow</button>
+            </div>
+            
+            <div class="suggestion-item">
+                <img src="download (4).jpg" alt="user">
+                <div class="suggestion-info">
+                    <h5>user_7</h5>
+                    <p>Suggested for you</p>
+                </div>
+                <button>Follow</button>
+            </div>
+        </div>
+        
+        <div class="sidebar-footer">
+            <div class="footer-links">
+                <a href="#">About</a><span>·</span>
+                <a href="#">Help</a><span>·</span>
+                <a href="#">Press</a><span>·</span>
+                <a href="#">API</a><span>·</span>
+                <a href="#">Jobs</a><span>·</span>
+                <a href="#">Privacy</a><span>·</span>
+                <a href="#">Terms</a><span>·</span>
+                <a href="#">Locations</a><span>·</span>
+                <a href="#">Language</a>
+            </div>
+            <p class="copyright">© 2024 INSTAGRAM FROM META</p>
+        </div>
+    </aside>
+
+    <script>
+        // Theme switcher functionality
+        const themeBtn = document.querySelector('.theme-switch-btn');
+        const body = document.body;
+        
+        // Check for saved theme preference
+        if (localStorage.getItem('darkTheme') === 'true') {
+            body.classList.add('dark-theme');
+        }
+        
+        // Toggle theme
+        themeBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+            localStorage.setItem('darkTheme', body.classList.contains('dark-theme'));
+        });
+    </script>
+</body>
+</html>
